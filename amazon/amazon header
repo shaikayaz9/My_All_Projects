@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>amazon header by ayaz</title>
+	<!-- <link rel="stylesheet" type="text/css" href="amazon.css"> -->
+	<style type="text/css"> 
+/*amazon.css*/
+*{
+	padding: 0px;
+	margin: 0px;
+	color:white;}
+
+#navbar{
+	height: 60px;
+	background-color: #0f1111;
+	}
+
+button{
+	background-color: #f08804;
+	font-size: 15px;
+}
+
+#logo{
+	font-size: 25px;
+	color: #f08804;}
+
+a{
+	text-decoration: none;
+	margin-right: 120px;
+	}
+
+input{
+	color:black;
+}
+	</style>
+</head>
+<body>
+<div id="navbar">
+    <a href="#" id="logo"> Amazon</a> 
+    <a href="#"> Account</a> 
+    <a href="#"> My Cart</a> 
+    <a href="#"> contact us</a>
+    
+  <input placeholder=" Search Amazon.in" id="inputt">
+  <button>search</button>
+</div>
+</body>
+</html>
