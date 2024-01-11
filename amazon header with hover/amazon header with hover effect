@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS test</title>
+	<link rel="stylesheet" type="text/css" href="ccc.css">
+	<style type="text/css"> 
+*{
+/*	background-color: powderblue;*/
+	padding: 0px;
+	margin: 0px;
+	text-transform:capitalize;
+	font-size: 10px;
+}
+
+.nav{
+	background-color: black;
+	height: 50px;
+}
+#logo{
+	color:orange;
+	font-size: 25px;
+}
+a{
+	text-decoration: none;
+	margin-right: 25px;
+	color:white;
+}
+button{
+	background-color:orange;
+	color:white;
+}
+main{
+	height: 350px;
+}
+.divv1{
+	height: 50px;
+	background-color: gray;
+	border:2px solid black;
+	margin: 5px;
+}
+.divv1:hover{
+	background-color: lightgray;
+}
+
+a:hover{
+	color: lightblue;
+}
+footer{
+	background-color: black;
+	height: 50px;
+	color:white;
+	justify-content: center;
+	text-align: center;
+}
+
+	</style>
+</head>
+<body>
+	<header>
+<div class="nav">
+     <a href="link" id="logo">amazon.in</a> 
+     <a href="link">my cart</a> 
+     <a href="link">shop</a> 
+     <a href="link">contact</a>
+     <input placeholder="search on amazon.in"> 
+     <button>click me</button>
+</div>
+</header>
+<main>
+<div class="nav2"> 
+	<div class="divv1"> <h2> product 1</h2></div>
+	<div class="divv1"> <h2> product 2</h2></div>
+	<div class="divv1"> <h2> product 3</h2></div>
+	<div class="divv1"> <h2> product 4</h2></div><div class="divv1"> <h2> product 5</h2></div><div class="divv1"> <h2> product 6</h2></div>
+</div>
+</main>
+<footer> copy right by amazon</footer>
+</body>
+</html>
