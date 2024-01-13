@@ -1,0 +1,10 @@
+<h3>Image Maps</h3>
+<p>Click on the laptop to go to a new page and read more about the topic:</p>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREiAC5_oTchbyQqtcf1HNmA_ZR9ARmEAhnAuA599t7hg&s" alt="laptop" width="400" height="379" usemap="#lapmap">
+
+<map name="lapmap">
+ <area shape="rect" coords="34,44,270,350" alt="laptop" href="computer.htm">
+</map>
+</body>
+</html>
