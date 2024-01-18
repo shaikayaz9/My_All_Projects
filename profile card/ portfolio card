@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card UI Design</title>
+    <link rel="stylesheet" href="ayaz.card.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&display=swap');
+
+*{font-family: 'Poppins', sans-serif;}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+
+}
+.profile_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.img{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.img .profile_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+.profile_card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: 333;
+}
+.text-data .name{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile_card .media-button {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile_card .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    height: 34px;
+    width: 34px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin: 0 8px;
+    text-decoration: none;
+    background-color: #4070f4;
+}
+    </style>
+</head>
+<body>
+    <div class="profile_card">
+        <div class="img">
+            <img src="ayaz.jpeg" alt="" class="profile_img">
+        </div>
+    
+    
+    <div class="text-data">
+        <span class="name">Ayaz Shaik</span>
+        <span class="job">Web Developer</span>
+    </div>
+
+    <div class="media-button">
+        <a href="#" style="background-color: #4267b2;" class="link">
+            <i class='bx bxl-facebook'></i>
+        </a>
+        <a href="#" style="background-color:#1da1f2 ;" class="link">
+            <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="https://www.instagram.com/ayazshaikh_official/" style="background-color: #e1306c ;" class="link">
+            <i class='bx bxl-instagram'></i>
+        </a>
+        <a href="#" style="background-color: #ff0000;" class="link">
+            <i class='bx bxl-youtube' ></i>
+        </a>
+    </div>
+</div>
+</body>
+</html>
