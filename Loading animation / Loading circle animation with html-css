@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>loading animation</title>
+<style>
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;}
+body{
+  background-color:powderblue;
+}
+#spin{
+  background-color:navy;
+  height:250px;
+  width:250px;
+  margin:100px 100px; 
+  border-radius:50%;
+  border:25px solid white;
+  border-top:indigo 25px solid;
+  transition: smooth;
+  animation: ani 0.1s linear infinite;
+ 
+}
+@keyframes ani {
+  
+  to {
+    transform:rotate(360deg);
+}
+  }
+  
+  #spin2{
+  background-color:yellow;
+  height:250px;
+  width:250px;
+  margin:100px 100px; 
+  border-radius:50%;
+  border:25px solid white;
+  border-top:red 25px solid;
+  transition:smooth;
+  animation: anime 0.5s linear infinite;
+ 
+}
+@keyframes anime {
+  
+  to {
+    transform:rotate(-360deg);
+}
+  } 
+</style>
+</head>
+<body>
+<h1>loading animation with HTML & CSS</h1>
+<div id="spin"></div>
+<div id="spin2"></div>
+</body>
+</html>
