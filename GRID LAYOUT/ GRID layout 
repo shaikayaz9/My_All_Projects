@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            background-color: powderblue;
+        }
+        .container{
+            display: grid;
+            background-color: red;
+            border:2px solid green;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 100px 200px 200px 200px 50px 200px 250px; 
+            gap:20px
+        }
+        .card{
+            background-color: blue;
+            border:2px solid black;
+        }
+        .card1{
+            grid-column: span 3;
+            background-color: yellow;
+        }
+        .bbb{
+            grid-row: span 2;
+            background-color: aqua;
+        }
+    </style>
+    <title>grid</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card1"></div>
+        <div class="card">1</div>
+        <div class="card">2</div>
+        <div class="card">3</div>
+        <div class="card bbb">4</div>
+        <div class="card">5</div>
+        <div class="card">6</div>
+        <div class="card">7</div>
+        <div class="card">8</div>
+        <div class="card">9</div>
+        <div class="card">10</div>
+        <div class="card bbb">11</div>
+        <div class="card">12</div>
+        <div class="card">13</div>
+        <div class="card1">14</div>
+        <div class="card">15</div>
+        <div class="card">16</div>
+
+    </div>
+</body>
+</html>
